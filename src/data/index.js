@@ -1,5 +1,7 @@
 const unit1DBMS = "Unit1.pdf";
 const unit2DBMS = "Unit2.pdf";
+const EF = "EF Codd.pdf";
+const KEY = "Keys Introduction.pdf";
 const unit1DS = "Unit1DS.pdf";
 const unit2DS = "Unit2DS.pdf";
 const unit1ECOM = "UNIT-1 E-COM.pdf";
@@ -16,6 +18,14 @@ export const DBMS = [
   {
     unit: "Unit 2",
     href: unit2DBMS,
+  },
+  {
+    unit: "EF Codd",
+    href: EF,
+  },
+  {
+    unit: "Keys",
+    href: KEY,
   },
 ];
 

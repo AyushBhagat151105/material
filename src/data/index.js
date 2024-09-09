@@ -6,7 +6,7 @@ const unit1ECOM = "UNIT-1 E-COM.pdf";
 const unit2ECOM = "UNIT-2 E-COM.pdf";
 const unit1WAD = "UNIT-1 WAD -III.pdf";
 const unit1IKS = "US03IKBCA01_BCA_SEM III_IKS QB.pdf";
-const unit1MATHS = "math pdf harsh Gondaliya.pdf";
+const unit1MATHS = "math";
 
 export const DBMS = [
   {

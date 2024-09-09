@@ -1,5 +1,5 @@
 "use client";
-import { DBMS, DS, ECOM, IKS, WAD } from "@/data";
+import { DBMS, DS, ECOM, IKS, MATHS, WAD } from "@/data";
 import { FaGithub, FaInstagram } from "react-icons/fa";
 import AnimatedLink from "@/components/animatedButton";
 export default function Home() {
@@ -53,7 +53,16 @@ export default function Home() {
         );
       })}
 
-      <footer className="w-full bg-neutral-800 text-neutral-50 p-4 flex flex-col items-center">
+      <h1 className="text-3xl font-bold mt-7">MATHS</h1>
+      {MATHS.map((index, i) => {
+        return (
+          <div key={i} className="flex flex-col p-3">
+            <AnimatedLink name={index.unit} href={index.href} />
+          </div>
+        );
+      })}
+
+      <footer className="mt-6 w-full bg-neutral-800 text-neutral-50 p-4 flex flex-col items-center">
         <p className="mb-2">Website devoted by Ayush Bhagat</p>
         <div className="flex space-x-4">
           <a

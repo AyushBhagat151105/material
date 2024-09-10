@@ -29,7 +29,7 @@ export const Words = [
     className: "text-white text-xl sm:text-5xl",
   },
   {
-    text: "SAM 3.",
+    text: "SEM 3.",
     className: "text-blue-500 text-xl sm:text-5xl dark:text-blue-500",
   },
 ];

@@ -9,6 +9,30 @@ const unit2ECOM = "UNIT-2 E-COM.pdf";
 const unit1WAD = "UNIT-1 WAD -III.pdf";
 const unit1IKS = "US03IKBCA01_BCA_SEM III_IKS QB.pdf";
 const unit1MATHS = "math.pdf";
+const unit1GRAPH = "graph-theory_BCA.ppt";
+
+export const Words = [
+  {
+    text: "SPCAM",
+    className: "text-white text-xl sm:text-5xl",
+  },
+  {
+    text: "BCA",
+    className: "text-blue-500 text-xl sm:text-5xl dark:text-blue-500",
+  },
+  {
+    text: "MATERIALS",
+    className: "text-white text-xl sm:text-5xl",
+  },
+  {
+    text: "FOR",
+    className: "text-white text-xl sm:text-5xl",
+  },
+  {
+    text: "SAM 3.",
+    className: "text-blue-500 text-xl sm:text-5xl dark:text-blue-500",
+  },
+];
 
 export const DBMS = [
   {
@@ -69,5 +93,9 @@ export const MATHS = [
   {
     unit: "Unit 1",
     href: unit1MATHS,
+  },
+  {
+    unit: "Unit1 GRAPH",
+    href: unit1GRAPH,
   },
 ];

@@ -7,6 +7,9 @@ const unit2DS = "Unit2DS.pdf";
 const unit1ECOM = "UNIT-1 E-COM.pdf";
 const unit2ECOM = "UNIT-2 E-COM.pdf";
 const unit1WAD = "UNIT-1 WAD -III.pdf";
+const unit2WAD = "UNIT-2 WAD-III.pdf";
+const wadASS = "WAD-III Assignment.pdf";
+const wadQB = "US03IDBCA04_QB_WAD-III.pdf";
 const unit1IKS = "US03IKBCA01_BCA_SEM III_IKS QB.pdf";
 const unit1MATHS = "math.pdf";
 const unit1GRAPH = "graph-theory_BCA.ppt";
@@ -79,6 +82,18 @@ export const WAD = [
   {
     unit: "Unit 1",
     href: unit1WAD,
+  },
+  {
+    unit: "Unit 2",
+    href: unit2WAD,
+  },
+  {
+    unit: "ASS",
+    href: wadASS,
+  },
+  {
+    unit: "QB",
+    href: wadQB,
   },
 ];
 

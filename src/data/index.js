@@ -4,6 +4,7 @@ const EF = "EF Codd.pdf";
 const KEY = "Keys Introduction.pdf";
 const unit1DS = "Unit1DS.pdf";
 const unit2DS = "Unit2DS.pdf";
+const unit3DS = "Unit-3.pdf";
 const unit1ECOM = "UNIT-1 E-COM.pdf";
 const unit2ECOM = "UNIT-2 E-COM.pdf";
 const unit1WAD = "UNIT-1 WAD -III.pdf";
@@ -75,6 +76,10 @@ export const DS = [
   {
     unit: "Unit 2",
     href: unit2DS,
+  },
+  {
+    unit: "Unit 3",
+    href: unit3DS,
   },
 ];
 

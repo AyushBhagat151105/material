@@ -7,7 +7,7 @@ const Material = () => {
   return (
     <div className="relative overflow-hidden min-h-screen bg-black">
       {/* Background meteors effect */}
-      <Meteors number={50} />
+      <Meteors number={15} />
 
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen p-4 text-white">
         <h1 className="mt-8 text-3xl font-bold">DBMS</h1>
@@ -51,9 +51,6 @@ const Material = () => {
             <AnimatedLink name={index.unit} href={index.href} />
           </div>
         ))}
-        <Meteors number={50} />
-        <br />
-        <Meteors number={50} />
       </div>
     </div>
   );

@@ -5,10 +5,13 @@ const KEY = "Keys Introduction.pdf";
 const unit1DS = "Unit1DS.pdf";
 const unit2DS = "Unit2DS.pdf";
 const unit3DS = "Unit-3.pdf";
+const unit4DS = "DS SYBCA UNIT-4.pdf";
 const unit1ECOM = "UNIT-1 E-COM.pdf";
 const unit2ECOM = "UNIT-2 E-COM.pdf";
 const unit1WAD = "UNIT-1 WAD -III.pdf";
 const unit2WAD = "UNIT-2 WAD-III.pdf";
+const unit2WADR = "WAD-III Unit-II.pdf";
+const unit1WADR = "WAD-III Unit-I.pdf";
 const wadASS = "WAD-III Assignment.pdf";
 const wadQB = "US03IDBCA04_QB_WAD-III.pdf";
 const unit1IKS = "US03IKBCA01_BCA_SEM III_IKS QB.pdf";
@@ -81,6 +84,10 @@ export const DS = [
     unit: "Unit 3",
     href: unit3DS,
   },
+  {
+    unit: "Unit 4",
+    href: unit4DS,
+  },
 ];
 
 export const WAD = [
@@ -99,6 +106,14 @@ export const WAD = [
   {
     unit: "QB",
     href: wadQB,
+  },
+  {
+    unit: "Unit 1 Short",
+    href: unit1WADR,
+  },
+  {
+    unit: "Unit 2 Short",
+    href: unit2WADR,
   },
 ];
 

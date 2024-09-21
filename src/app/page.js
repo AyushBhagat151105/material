@@ -59,7 +59,7 @@ export default function Home() {
       </div>
       <WavyBackground className="max-w-4xl mx-auto pb-40 ">
         <footer className="rounded-lg mt-6 w-full bg-neutral-800 text-neutral-50 p-4 flex flex-col items-center">
-          <p className="mb-2">Website devoted by Ayush Bhagat</p>
+          <p className="mb-2">Website created by Ayush Bhagat</p>
           <div className="flex space-x-4">
             <a
               href="https://github.com/AyushBhagat151105"

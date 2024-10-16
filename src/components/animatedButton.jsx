@@ -1,9 +1,10 @@
-import React from 'react';
+import Link from "next/link";
+import React from "react";
 
 const AnimatedLink = ({ name, href }) => {
   return (
-    <a 
-      href={href} 
+    <Link
+      href={href}
       className="rounded-lg group relative w-28 h-12 text-neutral-50 bg-neutral-800 p-2 overflow-hidden no-underline"
     >
       <p className="absolute font-bold z-10 duration-500">{name}</p>
@@ -16,7 +17,7 @@ const AnimatedLink = ({ name, href }) => {
         <div className="absolute duration-500 bg-cyan-600 w-4 h-16 -bottom-16 group-hover:-bottom-1 right-20"></div>
         <div className="absolute duration-500 bg-cyan-600 w-4 h-16 bottom-12 group-hover:-bottom-1 delay-500 right-24"></div>
       </div>
-    </a>
+    </Link>
   );
 };
 

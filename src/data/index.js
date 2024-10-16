@@ -18,7 +18,7 @@ const wadASS = "WAD-III Assignment.pdf";
 const wadQB = "US03IDBCA04_QB_WAD-III.pdf";
 const unit1IKS = "US03IKBCA01_BCA_SEM III_IKS QB.pdf";
 const unit1MATHS = "math.pdf";
-const unit1GRAPH = "graph-theory_BCA.ppt";
+const unit1GRAPH = "graph-theory_BCA.pdf";
 
 export const Words = [
   {

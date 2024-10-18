@@ -10,6 +10,8 @@ const unit3DS = "Unit-3.pdf";
 const unit4DS = "DS SYBCA UNIT-4.pdf";
 const unit1ECOM = "UNIT-1 E-COM.pdf";
 const unit2ECOM = "UNIT-2 E-COM.pdf";
+const unit3ECOM = "UNIT-3 E-COM.pdf";
+const unit4ECOM = "UNIT-4 E-COM.pdf";
 const unit1WAD = "UNIT-1 WAD -III.pdf";
 const unit2WAD = "UNIT-2 WAD-III.pdf";
 const unit2WADR = "WAD-III Unit-II.pdf";
@@ -78,6 +80,14 @@ export const ECOM = [
   {
     unit: "Unit 2",
     href: unit2ECOM,
+  },
+  {
+    unit: "Unit 3",
+    href: unit3ECOM,
+  },
+  {
+    unit: "Unit 4",
+    href: unit3ECOM,
   },
 ];
 
